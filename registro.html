@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Pre-entrega</title>
+    <title>Registro</title>
 </head>
+
 <body class="fondo">
     <header>
         <div class="logo">
@@ -23,29 +25,25 @@
             </ul>
         </nav>
     </header>
+
+
     <main>
-        <p style="font-style: italic; font-size: 2rem; color: rgb(243, 242, 198);">Si desea contactarnos complete el siguiente Formulario</p>
+
+        <h1>Registro de Usuario</h1>
         <form action="#" method="get">
-            <h2>Formulario de Contacto</h2>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" value="" required>
 
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" value="" required>
+            <label for="username" class="form-label">Nombre: </label>
+            <input type="text" id="username" name="username" value="" required>
 
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" value="" required>
+            <label for="direccion" class="form-label">Direccion: </label>
+            <input type="text" id="direccion" name="direccion" value="" required>
 
-            <label for="email">Correo Electrónico:</label>
+            <label for="email" class="form-label">Email: </label>
             <input type="email" id="email" name="email" value="" required>
 
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" value="" rows="4" cols="50" required></textarea>
-
-            <button type="submit">Enviar</button>
+            <button type="submit">Registrarse</button>
         </form>
     </main>
-    <footer>
-        <p>&copy; 2025 Pre-Entrega Napal Agustin</p>
 </body>
+
 </html>
