@@ -5,25 +5,41 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Barra de navegador */
+/* Header y Barra de navegador */
 
-nav {
-    background-color: #8dd17f;
-    overflow: hidden;
-    position: sticky;
+header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8dd17f;
+}
+
+nav{
+    overflow: hidden; 
+    position: sticky;
     padding: 10px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
 nav li {
-    float: left;
+    justify-content: flex-end;
+    float: right;
     list-style-type: none;
-    border: 2px solid #333;
+    border: 2px;
     margin-right: 8px;
 }
 
-nav a{
+nav a {
     border: hidden;
     text-decoration: none;
 }
