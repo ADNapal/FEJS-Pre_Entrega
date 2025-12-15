@@ -42,6 +42,11 @@ nav li {
 nav a {
     border: hidden;
     text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: white;
 }
 
 /* Footer */
@@ -98,7 +103,7 @@ article img{ /*Limitando las dimenciones*/
     border-radius: 6px;
 }
 
-.mustraProductos{
+.muestraProductos{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -144,6 +149,10 @@ article p{
 
     .producto{
         width: 40%;
+    }
+
+    header{
+        flex-direction: column;
     }
 
 }

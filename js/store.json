@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Guantes",
+        "img": "./img/Guantes.jpg",
+        "descripcion": "Guantes para obras",
+        "precio": 258.0
+    },
+    {
+        "name": "Balde",
+        "img": "./img/Balde.png",
+        "descripcion": "Balde para obras",
+        "precio": 350.0
+    },
+    {
+        "name": "Carretilla",
+        "img": "./img/Carretilla1.jpg",
+        "descripcion": "Carretilla para obras",
+        "precio": 661.0
+    },
+    {
+        "name": "Cemento",
+        "img": "./img/Cemento.png",
+        "descripcion": "Bolsa de cemento",
+        "precio": 152.0
+    },
+    {
+        "name": "Carretilla",
+        "img": "./img/Carretilla2.jpg",
+        "descripcion": "Carretilla para obras",
+        "precio": 701.0
+    },
+    {
+        "name": "Ladrillo",
+        "img": "./img/Ladrillo.jpg",
+        "descripcion": "Ladrillo para exteriores",
+        "precio": 15.0
+    },
+    {
+        "name": "Pala",
+        "img": "./img/Pala.jpg",
+        "descripcion": "Para para obras",
+        "precio": 986.0
+    }
+]
