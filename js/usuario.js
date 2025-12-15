@@ -12,3 +12,8 @@ console.log("Usuario guardado en SessionStorage:");
 console.log("Nombre: " + sessionStorage.getItem("Nombre"));
 console.log("Direccion: " + sessionStorage.getItem("Direccion"));
 console.log("Mail: " + sessionStorage.getItem("Mail"));
+
+
+let usarioActual = JSON.parse(sessionStorage.getItem("nombre"));
+if (usarioActual)
+    console.log("Usuario Actual:"); 
