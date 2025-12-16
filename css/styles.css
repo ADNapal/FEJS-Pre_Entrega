@@ -139,6 +139,51 @@ article p{
     display: inline-block;
 }
 
+/* Modal Carrito*/
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    border: solid black 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.modal-contenido{
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+}
+
+.modal-contenido h2{
+    text-align: center;
+}
+
+.cerrar-modal{
+    color: white;
+    cursor: pointer;
+    background-color: tomato;
+    padding: 2px;
+    border: 1px solid;
+}
+
+
 /* Responsive */
 
 @media (max-width: 990px) {
