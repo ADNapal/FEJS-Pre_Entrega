@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/Logo.png">
     <title>FakE-comerce</title>
 </head>
 
@@ -17,8 +18,6 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="contacto.html">Contactenos</a></li>
                 <li><a href="registro.html">Registrarse</a></li>
             </ul>
@@ -26,70 +25,29 @@
     </header>
 
     <main>
-        <h1>Pagina prinicipal</h1>
-        <button id="vaciar-carrito" style="padding: 5px;">Vaciar carrito</button>
+        <!--<h1>Pagina prinicipal</h1>-->
+        <button id="abrir-carrito" style="padding: 5px;">Lista carrito</button>
+        <p id="contadorCarrito">Carrito: </p>
         <section class="muestraProductos" id="productos-contenedor">
-            <!-- <article class="producto">
-                <h2>Guantes</h2>
-                <img src="./img/Guantes.jpg" alt="Imagen de Guantes">
-                <p class="descripcionProducto">Guantes para obras</p>
-                <h4 class="precio">$999,00</h4>
-                <a href="./productos.html" class="info">Ver info</a>
-                <a href="#" class="comprar" id="boton-agregar">Comprar</a>
-            </article>
-            <article class="producto">
-                <h2>Balde</h2>
-                <img src="./img/Balde.png" alt="Imagen de Balde">
-                <p class="descripcionProducto">Balde para obras</p>
-                <h4 class="precio">$999,00</h4>
-                <a href="./productos.html" class="info">Ver info</a>
-                <a href="#" class="comprar">Comprar</a>
-            </article>
-            <article class="producto">
-                <h2>Carretilla</h2>
-                <img src="./img/Carretilla1.jpg" alt="Imagen de carretilla">
-                <p class="descripcionProducto">Carretilla para obras</p>
-                <h4 class="precio">$999,00</h4>
-                <a href="./productos.html" class="info">Ver info</a>
-                <a href="#" class="comprar">Comprar</a>
-            </article>
-            <article class="producto">
-                <h2>Cemento</h2>
-                <img src="./img/Cemento.png" alt="Imagen de Cemento">
-                <p class="descripcionProducto">Bolsa de Cemento</p>
-                <h4 class="precio">$999,00</h4>
-                <a href="./productos.html" class="info">Ver info</a>
-                <a href="#" class="comprar">Comprar</a>
-            </article>
-            <article class="producto">
-                <h2>Carretilla</h2>
-                <img src="./img/Carretilla2.jpg" alt="Imagen de Carretilla">
-                <p class="descripcionProducto">Carretilla para obras</p>
-                <h4 class="precio">$999,00</h4>
-                <a href="./productos.html" class="info">Ver info</a>
-                <a href="#" class="comprar">Comprar</a>
-            </article>
-            <article class="producto">
-                <h2>Ladrillo</h2>
-                <img src="./img/Ladrillo.jpg" alt="Imagen de Ladrillo">
-                <p class="descripcionProducto">Ladrillo para exterior</p>
-                <h4 class="precio">$2.533,00</h4>
-                <a href="./productos.html" class="info">Ver info</a>
-                <a href="#" class="comprar">Comprar</a>
-            </article>
-            <article class="producto">
-                <h2>Pala</h2>
-                <img src="./img/Pala.jpg" alt="Imagen de Pala">
-                <p class="descripcionProducto">Pala punta plana</p>
-                <h4 class="precio">$2.533,00</h4>
-                <a href="./productos.html" class="info">Ver info</a>
-                <a href="#" class="comprar">Comprar</a>
-            </article>
- -->
+            <!-- Los productos se cargan -->
         </section>
     </main>
 
+    <section class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">Cerrar</span>
+            <h2>Carrito de Compras</h2>
+            <div id="carrito-contenedor">
+                <!-- Los productos del carrito se cargan -->
+            </div>
+            <h3 id="total-compra">Total: $<span id="modal-total">0</span></h3>
+            <button id="comprar" style="padding: 5px;">Comprar</button>
+            <button id="vaciar-carrito" style="padding: 5px;">Vaciar carrito</button>
+        </div>
+    </section>
+
     <script src="js/index.js"></script>
+    
     <footer>
         <p>&copy; 2025 Napal Agustin</p>
 </body>
